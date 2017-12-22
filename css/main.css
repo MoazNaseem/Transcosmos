@@ -1,0 +1,272 @@
+/* Start my work place */
+/* End my word place */
+/* Start Navbar */
+.main-navbar .navbar {
+  background: #f4f4f4 !important; }
+.main-navbar .navbar-light .navbar-nav .nav-link {
+  color: #000;
+  text-transform: uppercase; }
+.main-navbar .navbar-light .navbar-nav .nav-link:hover {
+  color: #9b8d8d; }
+
+/* Start Navbar */
+/* Start Image */
+.slider {
+  background-image: url("../images/sky.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  color: #FFF;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .slider .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2; }
+  .slider .info {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 3; }
+    .slider .info a {
+      text-decoration: none;
+      color: #FFF;
+      background: none;
+      border: 1px solid #FFF;
+      border-radius: 24px;
+      padding: 5px 20px; }
+    .slider .info a:hover {
+      border: 2px solid #FFF; }
+
+/* End Image */
+/* Start Slider Bar */
+@media (max-width: 680px) {
+  .sliderbar {
+    display: none; } }
+.sliderbar {
+  position: relative;
+  color: #FFF; }
+  @media (max-width: 992px) {
+    .sliderbar .latest h4 {
+      font-size: 20px; }
+    .sliderbar .latest .triangle::after {
+      border-width: 27px 0 26px 40px; }
+    .sliderbar .latest {
+      height: 52px;
+      line-height: 52px; }
+    .sliderbar .news {
+      height: 52px;
+      line-height: 52px; }
+    .sliderbar .news p {
+      margin: 0 20px 8px 68px !important; } }
+  .sliderbar .latest {
+    background-color: #ad050c;
+    display: flex;
+    justify-content: flex-end; }
+    .sliderbar .latest h4 {
+      margin: 7px 8px 14px auto;
+      font-weight: bold; }
+    .sliderbar .latest .triangle::after {
+      content: "";
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -1px;
+      right: -40px;
+      border-style: solid;
+      border-width: 25px 0 25px 40px;
+      border-color: transparent transparent transparent #ad050c;
+      z-index: 4; }
+  .sliderbar .news {
+    background-color: #d22238;
+    display: flex;
+    justify-content: flex-start; }
+    .sliderbar .news p {
+      margin: 8px 20px 8px 68px;
+      display: inline-block; }
+    .sliderbar .news a {
+      text-decoration: none;
+      font-size: 18px;
+      color: #FFF; }
+    .sliderbar .news a:hover {
+      color: #26547c; }
+
+/* Start Slider Bar */
+/* Start Together */
+.together {
+  margin-top: 0;
+  text-align: center;
+  background-color: #f4f4f4; }
+  .together h2 {
+    color: #26547c;
+    font-weight: normal;
+    padding-top: 50px; }
+  .together p {
+    margin: 20px auto 70px auto; }
+  .together h4 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 30px;
+    letter-spacing: 3px;
+    color: #26547c; }
+  .together .more {
+    padding-bottom: 50px; }
+    .together .more a {
+      text-decoration: none;
+      color: #000;
+      background: none;
+      border: 1px solid #000;
+      border-radius: 24px;
+      padding: 7px 15px; }
+    .together .more a:hover {
+      border: 2px solid #000; }
+
+/* End Together */
+/* Start Clients */
+.clients {
+  margin-top: 60px; }
+  .clients h2 {
+    color: #26547c;
+    text-align: center;
+    font-weight: normal; }
+  .clients .info p:last-child {
+    margin-top: 25px; }
+  .clients hr {
+    margin: 50px auto 30px auto; }
+
+/* End Clients */
+/* Start Brand */
+@media (max-width: 770px) {
+  .brand {
+    display: none; } }
+.brand {
+  position: relative;
+  margin-top: 50px; }
+  .brand .img {
+    padding: 20px; }
+    .brand .img img {
+      width: 100%;
+      display: block;
+      filter: grayscale(100%);
+      transition: 0.5s ease; }
+    .brand .img img:hover {
+      filter: grayscale(0%); }
+  .brand .more {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; }
+    .brand .more a {
+      text-decoration: none;
+      color: #000;
+      background: none;
+      border: 1px solid #000;
+      border-radius: 24px;
+      padding: 7px 15px; }
+    .brand .more a:hover {
+      border: 2px solid #000; }
+
+/* End Brand */
+/* Start Knowledge */
+.knowledge {
+  background-color: #f4f4f4;
+  padding: 50px 0 100px 0; }
+  .knowledge h2 {
+    font-weight: normal;
+    color: #26547c;
+    margin-bottom: 20px; }
+  .knowledge p {
+    margin-bottom: 30px; }
+  .knowledge .how {
+    margin: 30px auto 30px auto; }
+    .knowledge .how img {
+      width: 100%;
+      height: 200px; }
+    .knowledge .how .info {
+      background-color: #FFF;
+      padding: 30px; }
+      .knowledge .how .info h4 {
+        color: #26547c;
+        font-weight: normal;
+        font-size: 20px; }
+  .knowledge .how:hover img {
+    box-shadow: 5px 0 5px #666; }
+  .knowledge .how:hover .info {
+    box-shadow: 5px 5px 5px #666; }
+
+/* End Knowledge */
+/* Start Footer */
+.footer {
+  background-color: #26547c;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #FFF; }
+  .footer .links {
+    text-align: center; }
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0; }
+  .footer ul li {
+    display: inline-block;
+    padding: 0 5px; }
+  .footer ul li a {
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 20px; }
+  .footer ul li a:hover {
+    text-shadow: 5px 5px 5px #000; }
+  .footer .contacts {
+    text-align: center; }
+    .footer .contacts p {
+      margin-right: 15px;
+      display: inline-block;
+      color: #FFF;
+      letter-spacing: 2px; }
+    .footer .contacts .social {
+      display: inline-block; }
+      .footer .contacts .social .face {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: #4060a4; }
+      .footer .contacts .social .twitt {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: #78BDF1; }
+      .footer .contacts .social .link {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: #0177B4; }
+      .footer .contacts .social img {
+        max-width: 50px; }
+  .footer img {
+    margin: 20px auto; }
+  .footer p {
+    text-align: center; }
+
+/* End Footer */
+
+/*# sourceMappingURL=main.css.map */
